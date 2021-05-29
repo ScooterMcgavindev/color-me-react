@@ -35,6 +35,11 @@ const styles = {
 };
 /** Component to provide links to Palettes */
 class PaletteList extends Component {
+  /** When clicked on a mini pallete push in the new url of the theme */
+  goToPalette(id) {
+    console.log('check');
+    this.props.history.push(`/palette/${id}`);
+  }
   render() {
     const { palettes, classes } = this.props;
     return (
@@ -45,7 +50,7 @@ class PaletteList extends Component {
           </nav>
           <div className={classes.palettes}>
             {palettes.map(palette => (
-              <MiniPalette {...palette} />
+              <MiniPalette {...palette} handleClick={() => this.goToPalette(palette.id)} />
             ))}
           </div>
         </div>
