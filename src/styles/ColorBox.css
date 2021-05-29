@@ -1,4 +1,4 @@
-.ColorBox {
+/* .ColorBox {
   width: 20%;
   height: 25%;
   margin: 0 auto;
@@ -39,7 +39,6 @@
 .copy-button {
   opacity: 0;
 }
-
 .ColorBox:hover .copy-button {
   opacity: 1;
   transition: 0.5s;
@@ -131,4 +130,4 @@
 .copy-msg p {
   font-size: 2rem;
   font-weight: 100;
-}
+} */
