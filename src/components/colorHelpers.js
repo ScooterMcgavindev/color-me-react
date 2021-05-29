@@ -33,9 +33,7 @@ function genPalette(startPalette) {
     paletteName: startPalette.paletteName,
     id: startPalette.id,
     emoji: startPalette.emoji,
-    colors: {
-
-    }
+    colors: {}
   };
   // seting levels to empty array
   for (let level of levels) {
@@ -49,7 +47,8 @@ function genPalette(startPalette) {
         id: color.name.toLowerCase().replace(/ /g, "-"),
         hex: scale[i],
         rgb: chroma(scale[i]).css(),
-        rgba: chroma(scale[i]).css()
+        rgba: chroma(scale[i])
+          .css()
           .replace("rgb", "rgba")
           .replace(")", ",1.0)")
       });
