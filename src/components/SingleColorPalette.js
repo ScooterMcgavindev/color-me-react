@@ -6,8 +6,6 @@ import styles from '../styles/PaletteStyles';
 import { withStyles } from '@material-ui/styles';
 import ColorBox from './ColorBox';
 
-
-
 class SingleColorPalette extends Component {
   constructor(props) {
     super(props);
