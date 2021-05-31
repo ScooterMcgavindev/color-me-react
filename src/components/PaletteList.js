@@ -2,37 +2,8 @@ import React, { Component } from 'react';
 import MiniPalette from './MiniPalette';
 import { Link } from 'react-router-dom';
 import { withStyles } from '@material-ui/styles';
+import styles from '../styles/PaletteListStyles';
 
-/** Style variables */
-const styles = {
-  root: {
-    backgroundColor: 'blue',
-    height: '100vh',
-    display: 'flex',
-    alignItems: 'flex-start',
-    justifyContent: 'center'
-  },
-  container: {
-    width: '50%',
-    dispaly: 'flex',
-    alignItems: 'flex-start',
-    flexDirection: 'column',
-    flexWrap: 'wrap'
-  },
-  nav: {
-    display: 'flex',
-    width: '100%',
-    justifyContent: 'space-between',
-    color: 'white'
-  },
-  palettes: {
-    boxSizing: 'border-box',
-    width: '100%',
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 30%)',
-    gridGap: '5%'
-  }
-};
 /** Component to provide links to Palettes */
 class PaletteList extends Component {
   /** When clicked on a mini pallete push in the new url of the theme */
