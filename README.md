@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A Flat UI Colors clone where users can choose different palettes and copy specific colors in HEX and RGBA format.
+A Flat UI Colors clone built with react and bundled with webpack where users can choose different palettes and copy specific colors in HEX and RGBA format.
 
 <p align="center">
   <b>Preview the Color-Me-React App:</b><br>
