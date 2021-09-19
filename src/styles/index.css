@@ -1,6 +1,6 @@
-body {
+* {
   margin: 0;
-  background-color: peachpuff;
+  padding: 0;
   color: black;
   font-size: 26px;
 }

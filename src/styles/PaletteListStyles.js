@@ -1,5 +1,5 @@
-import sizes from './sizes';
 import bg from './bg.svg';
+import sizes from './sizes';
 /** Style palette variables */
 export default {
   "@global": {
